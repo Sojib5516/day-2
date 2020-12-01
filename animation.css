@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    width: 1000px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.me{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    margin: 20px;
+    display: inline-block;
+    transition: .5s;
+    cursor: pointer;
+}
+    
+
+
+
+.div2:hover{
+    transform: rotate(65deg);
+}
+
+.div1:hover{
+    transform: translate(20px,80px);
+}
+
+.div3:hover{
+    transform: skew(30deg,30deg);
+}
+
+.div4:hover{
+    transform: scale(1,2);
+}
+.imj{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    
+}
+
+img{
+    max-width: 100%;
+   transition: .5s;
+   cursor: pointer;
+}
+img:hover{
+    transform: scale(1.2) rotate(360deg);
+}
+
